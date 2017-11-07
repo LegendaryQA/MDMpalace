@@ -1,0 +1,7 @@
+# configuration for tests
+base.url=https://www.mdmpalace.ru/
+time.out=30
+# Test Specials
+
+# this field can have two values: "org.openqa.selenium.firefox.FirefoxDriver" or "org.openqa.selenium.chrome.ChromeDriver"
+webdriver.name=org.openqa.selenium.chrome.ChromeDriver

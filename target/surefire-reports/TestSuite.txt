@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 48, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 348.249 sec <<< FAILURE!
+redirectToGreatHallOrder(tests.RentFunctionalTest)  Time elapsed: 6.032 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7645b6ff679290a7358da20615beab24)] -> xpath: //*[@class='g-block__action']//child::a[@href='/halls/great.html#gorent']] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'TROLLIZER-PC', ip: '192.168.116.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\TROLLI~1\AppData\Local\Temp\scoped_dir8852_1041}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7645b6ff679290a7358da20615beab24
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at pages.StartPage.waitUntilVisible(StartPage.java:32)
+	at pages.StartPage.clickGreatHallOrderLink(StartPage.java:315)
+	at tests.RentFunctionalTest.redirectToGreatHallOrder(RentFunctionalTest.java:48)
+
+redirectToParquetHallOrder(tests.RentFunctionalTest)  Time elapsed: 6.106 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7645b6ff679290a7358da20615beab24)] -> xpath: //*[@class='g-block__action']//child::a[@href='/halls/parket.html#gorent']] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'TROLLIZER-PC', ip: '192.168.116.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\TROLLI~1\AppData\Local\Temp\scoped_dir8852_1041}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7645b6ff679290a7358da20615beab24
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at pages.StartPage.waitUntilVisible(StartPage.java:32)
+	at pages.StartPage.clickParquetHallOrderLink(StartPage.java:320)
+	at tests.RentFunctionalTest.redirectToParquetHallOrder(RentFunctionalTest.java:55)
+

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="48" failures="2" name="TestSuite" time="228.761" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Trollizer\Desktop\mdmAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Trollizer\Desktop\mdmAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TROLLI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="suiteXmlFile" value="allFunctionals.xml"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.4\plugins\maven\lib\maven3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Python27;C:\Python27\Scripts;C:\Windows\System32\geckodriver.exe;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Windows\System32\WindowsPowerShell\v1.0\;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.4\plugins\maven\lib\maven3\bin;C:\Program Files\Java\jdk1.8.0_131;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Trollizer"/>
+    <property name="user.timezone" value="EET"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Trollizer"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.4\plugins\maven\lib\maven3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=allFunctionals.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.4\plugins\maven\lib\maven3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="tests.AdvantagesFuncTest" name="openAdvantagesBlock" time="0.628"/>
+  <testcase classname="tests.AdvantagesFuncTest" name="redirectToAdvantagesMap" time="1.516"/>
+  <testcase classname="tests.AdvantagesFuncTest" name="redirectToMdmVideo" time="1.859"/>
+  <testcase classname="tests.AdvantagesFuncTest" name="redirectToMetroMap" time="0.995"/>
+  <testcase classname="tests.AdvantagesFuncTest" name="redirectToParkMap" time="0.974"/>
+  <testcase classname="tests.AdvantagesFuncTest" name="redirectToParkingMap" time="0.935"/>
+  <testcase classname="tests.AdvantagesFuncTest" name="redirectToTtkMap" time="0.987"/>
+  <testcase classname="tests.ContactsFunctionalTest" name="openContactsBlock" time="0.127"/>
+  <testcase classname="tests.ContactsFunctionalTest" name="redirectToGoogleMaps" time="6.408"/>
+  <testcase classname="tests.EventsFunctionalTest" name="openEventsBlock" time="0.773"/>
+  <testcase classname="tests.EventsFunctionalTest" name="redirectToBuyVipService" time="19.56"/>
+  <testcase classname="tests.EventsFunctionalTest" name="redirectToEventInfo" time="1.384"/>
+  <testcase classname="tests.EventsFunctionalTest" name="redirectToEventVIPInfo" time="1.39"/>
+  <testcase classname="tests.InfrastructureFunctionalTest" name="openInfrastructureBlock" time="0.62"/>
+  <testcase classname="tests.InfrastructureFunctionalTest" name="redirectToAllArendatorsTGILink" time="65.156"/>
+  <testcase classname="tests.InfrastructureFunctionalTest" name="redirectToBankTrustLink" time="4.064"/>
+  <testcase classname="tests.InfrastructureFunctionalTest" name="redirectToMusicleLink" time="24.654"/>
+  <testcase classname="tests.InfrastructureFunctionalTest" name="redirectToRestaurantStarBucksLink" time="7.321"/>
+  <testcase classname="tests.InfrastructureFunctionalTest" name="redirectToServiceDelovarLink" time="3.551"/>
+  <testcase classname="tests.InfrastructureFunctionalTest" name="redirectToShopEliteLink" time="23.654"/>
+  <testcase classname="tests.InfrastructureFunctionalTest" name="redirectToSportPilatesLink" time="3.962"/>
+  <testcase classname="tests.LeftMenuFunctionalTest" name="redirectToConcertHallsRent" time="0.78"/>
+  <testcase classname="tests.LeftMenuFunctionalTest" name="redirectToContactsLink" time="0.436"/>
+  <testcase classname="tests.LeftMenuFunctionalTest" name="redirectToEventsLink" time="0.919"/>
+  <testcase classname="tests.LeftMenuFunctionalTest" name="redirectToInfrastructureLink" time="0.643"/>
+  <testcase classname="tests.LeftMenuFunctionalTest" name="redirectToMainPage" time="0.83"/>
+  <testcase classname="tests.LeftMenuFunctionalTest" name="redirectToMdmHistory" time="0.626"/>
+  <testcase classname="tests.LeftMenuFunctionalTest" name="redirectToPartnersLink" time="0.726"/>
+  <testcase classname="tests.LeftMenuFunctionalTest" name="redirectToRoomsRentLink" time="0.437"/>
+  <testcase classname="tests.MainPageFunctionalTest" name="closeAdvantagesBlock" time="2.217"/>
+  <testcase classname="tests.MainPageFunctionalTest" name="closeEventsBlock" time="1.837"/>
+  <testcase classname="tests.MainPageFunctionalTest" name="closeRentBlock" time="1.845"/>
+  <testcase classname="tests.MainPageFunctionalTest" name="closeRestaurantsBlock" time="2.339"/>
+  <testcase classname="tests.MainPageFunctionalTest" name="redirectToMediaStormLink" time="1.797"/>
+  <testcase classname="tests.RentFunctionalTest" name="openRentBlock" time="0.55"/>
+  <testcase classname="tests.RentFunctionalTest" name="redirectToAllRoomsLink" time="1.16"/>
+  <testcase classname="tests.RentFunctionalTest" name="redirectToGreatHallLink" time="1.661"/>
+  <testcase classname="tests.RentFunctionalTest" name="redirectToGreatHallOrder" time="6.032">
+    <failure message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7645b6ff679290a7358da20615beab24)] -&gt; xpath: //*[@class=&apos;g-block__action&apos;]//child::a[@href=&apos;/halls/great.html#gorent&apos;]] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;TROLLIZER-PC&apos;, ip: &apos;192.168.116.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\TROLLI~1\AppData\Local\Temp\scoped_dir8852_1041}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7645b6ff679290a7358da20615beab24" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7645b6ff679290a7358da20615beab24)] -&gt; xpath: //*[@class=&apos;g-block__action&apos;]//child::a[@href=&apos;/halls/great.html#gorent&apos;]] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;TROLLIZER-PC&apos;, ip: &apos;192.168.116.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\TROLLI~1\AppData\Local\Temp\scoped_dir8852_1041}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7645b6ff679290a7358da20615beab24
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at pages.StartPage.waitUntilVisible(StartPage.java:32)
+	at pages.StartPage.clickGreatHallOrderLink(StartPage.java:315)
+	at tests.RentFunctionalTest.redirectToGreatHallOrder(RentFunctionalTest.java:48)
+</failure>
+  </testcase>
+  <testcase classname="tests.RentFunctionalTest" name="redirectToParquetHallLink" time="1.448"/>
+  <testcase classname="tests.RentFunctionalTest" name="redirectToParquetHallOrder" time="6.106">
+    <failure message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7645b6ff679290a7358da20615beab24)] -&gt; xpath: //*[@class=&apos;g-block__action&apos;]//child::a[@href=&apos;/halls/parket.html#gorent&apos;]] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;TROLLIZER-PC&apos;, ip: &apos;192.168.116.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\TROLLI~1\AppData\Local\Temp\scoped_dir8852_1041}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7645b6ff679290a7358da20615beab24" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7645b6ff679290a7358da20615beab24)] -&gt; xpath: //*[@class=&apos;g-block__action&apos;]//child::a[@href=&apos;/halls/parket.html#gorent&apos;]] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;TROLLIZER-PC&apos;, ip: &apos;192.168.116.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\TROLLI~1\AppData\Local\Temp\scoped_dir8852_1041}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7645b6ff679290a7358da20615beab24
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at pages.StartPage.waitUntilVisible(StartPage.java:32)
+	at pages.StartPage.clickParquetHallOrderLink(StartPage.java:320)
+	at tests.RentFunctionalTest.redirectToParquetHallOrder(RentFunctionalTest.java:55)
+</failure>
+  </testcase>
+  <testcase classname="tests.RentFunctionalTest" name="redirectToWatchAllRoomsLink" time="1.219"/>
+  <testcase classname="tests.RestaurantsFunctionalTest" name="openRestaurantsBlock" time="1.12"/>
+  <testcase classname="tests.RestaurantsFunctionalTest" name="redirectToAllArendatorsList" time="1.545"/>
+  <testcase classname="tests.RestaurantsFunctionalTest" name="redirectToCoffeTimeWebSite" time="2.573"/>
+  <testcase classname="tests.RestaurantsFunctionalTest" name="redirectToFudaWebSite" time="1.707"/>
+  <testcase classname="tests.RestaurantsFunctionalTest" name="redirectToPrazdnikVkusaWebSite" time="9.012"/>
+  <testcase classname="tests.RestaurantsFunctionalTest" name="redirectToRestaurantsMap" time="1.459"/>
+  <testcase classname="tests.RestaurantsFunctionalTest" name="redirectToStarBucksWebSite" time="7.219"/>
+</testsuite>

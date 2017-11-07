@@ -1,0 +1,1698 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">48 methods, 2 failed,   46 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RentFunctionalTest" hash-for-method="redirectToGreatHallOrder">redirectToGreatHallOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RentFunctionalTest" hash-for-method="redirectToParquetHallOrder">redirectToParquetHallOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MainPageFunctionalTest" hash-for-method="closeAdvantagesBlock">closeAdvantagesBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MainPageFunctionalTest" hash-for-method="closeEventsBlock">closeEventsBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MainPageFunctionalTest" hash-for-method="closeRentBlock">closeRentBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MainPageFunctionalTest" hash-for-method="closeRestaurantsBlock">closeRestaurantsBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.AdvantagesFuncTest" hash-for-method="openAdvantagesBlock">openAdvantagesBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.ContactsFunctionalTest" hash-for-method="openContactsBlock">openContactsBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.EventsFunctionalTest" hash-for-method="openEventsBlock">openEventsBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.InfrastructureFunctionalTest" hash-for-method="openInfrastructureBlock">openInfrastructureBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RentFunctionalTest" hash-for-method="openRentBlock">openRentBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RestaurantsFunctionalTest" hash-for-method="openRestaurantsBlock">openRestaurantsBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.AdvantagesFuncTest" hash-for-method="redirectToAdvantagesMap">redirectToAdvantagesMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RestaurantsFunctionalTest" hash-for-method="redirectToAllArendatorsList">redirectToAllArendatorsList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.InfrastructureFunctionalTest" hash-for-method="redirectToAllArendatorsTGILink">redirectToAllArendatorsTGILink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RentFunctionalTest" hash-for-method="redirectToAllRoomsLink">redirectToAllRoomsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.InfrastructureFunctionalTest" hash-for-method="redirectToBankTrustLink">redirectToBankTrustLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.EventsFunctionalTest" hash-for-method="redirectToBuyVipService">redirectToBuyVipService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RestaurantsFunctionalTest" hash-for-method="redirectToCoffeTimeWebSite">redirectToCoffeTimeWebSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.LeftMenuFunctionalTest" hash-for-method="redirectToConcertHallsRent">redirectToConcertHallsRent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.LeftMenuFunctionalTest" hash-for-method="redirectToContactsLink">redirectToContactsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.EventsFunctionalTest" hash-for-method="redirectToEventInfo">redirectToEventInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.EventsFunctionalTest" hash-for-method="redirectToEventVIPInfo">redirectToEventVIPInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.LeftMenuFunctionalTest" hash-for-method="redirectToEventsLink">redirectToEventsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RestaurantsFunctionalTest" hash-for-method="redirectToFudaWebSite">redirectToFudaWebSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.ContactsFunctionalTest" hash-for-method="redirectToGoogleMaps">redirectToGoogleMaps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RentFunctionalTest" hash-for-method="redirectToGreatHallLink">redirectToGreatHallLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.LeftMenuFunctionalTest" hash-for-method="redirectToInfrastructureLink">redirectToInfrastructureLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.LeftMenuFunctionalTest" hash-for-method="redirectToMainPage">redirectToMainPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.LeftMenuFunctionalTest" hash-for-method="redirectToMdmHistory">redirectToMdmHistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.AdvantagesFuncTest" hash-for-method="redirectToMdmVideo">redirectToMdmVideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MainPageFunctionalTest" hash-for-method="redirectToMediaStormLink">redirectToMediaStormLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.AdvantagesFuncTest" hash-for-method="redirectToMetroMap">redirectToMetroMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.InfrastructureFunctionalTest" hash-for-method="redirectToMusicleLink">redirectToMusicleLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.AdvantagesFuncTest" hash-for-method="redirectToParkMap">redirectToParkMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.AdvantagesFuncTest" hash-for-method="redirectToParkingMap">redirectToParkingMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RentFunctionalTest" hash-for-method="redirectToParquetHallLink">redirectToParquetHallLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.LeftMenuFunctionalTest" hash-for-method="redirectToPartnersLink">redirectToPartnersLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RestaurantsFunctionalTest" hash-for-method="redirectToPrazdnikVkusaWebSite">redirectToPrazdnikVkusaWebSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.InfrastructureFunctionalTest" hash-for-method="redirectToRestaurantStarBucksLink">redirectToRestaurantStarBucksLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RestaurantsFunctionalTest" hash-for-method="redirectToRestaurantsMap">redirectToRestaurantsMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.LeftMenuFunctionalTest" hash-for-method="redirectToRoomsRentLink">redirectToRoomsRentLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.InfrastructureFunctionalTest" hash-for-method="redirectToServiceDelovarLink">redirectToServiceDelovarLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.InfrastructureFunctionalTest" hash-for-method="redirectToShopEliteLink">redirectToShopEliteLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.InfrastructureFunctionalTest" hash-for-method="redirectToSportPilatesLink">redirectToSportPilatesLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RestaurantsFunctionalTest" hash-for-method="redirectToStarBucksWebSite">redirectToStarBucksWebSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.AdvantagesFuncTest" hash-for-method="redirectToTtkMap">redirectToTtkMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.RentFunctionalTest" hash-for-method="redirectToWatchAllRoomsLink">redirectToWatchAllRoomsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.RentFunctionalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToGreatHallOrder">
+                  </a> <!-- redirectToGreatHallOrder -->
+                  <span class="method-name">redirectToGreatHallOrder</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7645b6ff679290a7358da20615beab24)] -&gt; xpath: //*[@class=&apos;g-block__action&apos;]//child::a[@href=&apos;/halls/great.html#gorent&apos;]] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;TROLLIZER-PC&apos;, ip: &apos;192.168.116.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\TROLLI~1\AppData\Local\Temp\scoped_dir8852_1041}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7645b6ff679290a7358da20615beab24
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at pages.StartPage.waitUntilVisible(StartPage.java:32)
+	at pages.StartPage.clickGreatHallOrderLink(StartPage.java:315)
+	at tests.RentFunctionalTest.redirectToGreatHallOrder(RentFunctionalTest.java:48)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToParquetHallOrder">
+                  </a> <!-- redirectToParquetHallOrder -->
+                  <span class="method-name">redirectToParquetHallOrder</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7645b6ff679290a7358da20615beab24)] -&gt; xpath: //*[@class=&apos;g-block__action&apos;]//child::a[@href=&apos;/halls/parket.html#gorent&apos;]] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;TROLLIZER-PC&apos;, ip: &apos;192.168.116.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\TROLLI~1\AppData\Local\Temp\scoped_dir8852_1041}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7645b6ff679290a7358da20615beab24
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at pages.StartPage.waitUntilVisible(StartPage.java:32)
+	at pages.StartPage.clickParquetHallOrderLink(StartPage.java:320)
+	at tests.RentFunctionalTest.redirectToParquetHallOrder(RentFunctionalTest.java:55)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LeftMenuFunctionalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToConcertHallsRent">
+                  </a> <!-- redirectToConcertHallsRent -->
+                  <span class="method-name">redirectToConcertHallsRent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToContactsLink">
+                  </a> <!-- redirectToContactsLink -->
+                  <span class="method-name">redirectToContactsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToEventsLink">
+                  </a> <!-- redirectToEventsLink -->
+                  <span class="method-name">redirectToEventsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToInfrastructureLink">
+                  </a> <!-- redirectToInfrastructureLink -->
+                  <span class="method-name">redirectToInfrastructureLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToMainPage">
+                  </a> <!-- redirectToMainPage -->
+                  <span class="method-name">redirectToMainPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToMdmHistory">
+                  </a> <!-- redirectToMdmHistory -->
+                  <span class="method-name">redirectToMdmHistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToPartnersLink">
+                  </a> <!-- redirectToPartnersLink -->
+                  <span class="method-name">redirectToPartnersLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToRoomsRentLink">
+                  </a> <!-- redirectToRoomsRentLink -->
+                  <span class="method-name">redirectToRoomsRentLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdvantagesFuncTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAdvantagesBlock">
+                  </a> <!-- openAdvantagesBlock -->
+                  <span class="method-name">openAdvantagesBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToAdvantagesMap">
+                  </a> <!-- redirectToAdvantagesMap -->
+                  <span class="method-name">redirectToAdvantagesMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToMdmVideo">
+                  </a> <!-- redirectToMdmVideo -->
+                  <span class="method-name">redirectToMdmVideo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToMetroMap">
+                  </a> <!-- redirectToMetroMap -->
+                  <span class="method-name">redirectToMetroMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToParkMap">
+                  </a> <!-- redirectToParkMap -->
+                  <span class="method-name">redirectToParkMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToParkingMap">
+                  </a> <!-- redirectToParkingMap -->
+                  <span class="method-name">redirectToParkingMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToTtkMap">
+                  </a> <!-- redirectToTtkMap -->
+                  <span class="method-name">redirectToTtkMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.EventsFunctionalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openEventsBlock">
+                  </a> <!-- openEventsBlock -->
+                  <span class="method-name">openEventsBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToBuyVipService">
+                  </a> <!-- redirectToBuyVipService -->
+                  <span class="method-name">redirectToBuyVipService</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToEventInfo">
+                  </a> <!-- redirectToEventInfo -->
+                  <span class="method-name">redirectToEventInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToEventVIPInfo">
+                  </a> <!-- redirectToEventVIPInfo -->
+                  <span class="method-name">redirectToEventVIPInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ContactsFunctionalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openContactsBlock">
+                  </a> <!-- openContactsBlock -->
+                  <span class="method-name">openContactsBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToGoogleMaps">
+                  </a> <!-- redirectToGoogleMaps -->
+                  <span class="method-name">redirectToGoogleMaps</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.InfrastructureFunctionalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openInfrastructureBlock">
+                  </a> <!-- openInfrastructureBlock -->
+                  <span class="method-name">openInfrastructureBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToAllArendatorsTGILink">
+                  </a> <!-- redirectToAllArendatorsTGILink -->
+                  <span class="method-name">redirectToAllArendatorsTGILink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToBankTrustLink">
+                  </a> <!-- redirectToBankTrustLink -->
+                  <span class="method-name">redirectToBankTrustLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToMusicleLink">
+                  </a> <!-- redirectToMusicleLink -->
+                  <span class="method-name">redirectToMusicleLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToRestaurantStarBucksLink">
+                  </a> <!-- redirectToRestaurantStarBucksLink -->
+                  <span class="method-name">redirectToRestaurantStarBucksLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToServiceDelovarLink">
+                  </a> <!-- redirectToServiceDelovarLink -->
+                  <span class="method-name">redirectToServiceDelovarLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToShopEliteLink">
+                  </a> <!-- redirectToShopEliteLink -->
+                  <span class="method-name">redirectToShopEliteLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToSportPilatesLink">
+                  </a> <!-- redirectToSportPilatesLink -->
+                  <span class="method-name">redirectToSportPilatesLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RestaurantsFunctionalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openRestaurantsBlock">
+                  </a> <!-- openRestaurantsBlock -->
+                  <span class="method-name">openRestaurantsBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToAllArendatorsList">
+                  </a> <!-- redirectToAllArendatorsList -->
+                  <span class="method-name">redirectToAllArendatorsList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToCoffeTimeWebSite">
+                  </a> <!-- redirectToCoffeTimeWebSite -->
+                  <span class="method-name">redirectToCoffeTimeWebSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToFudaWebSite">
+                  </a> <!-- redirectToFudaWebSite -->
+                  <span class="method-name">redirectToFudaWebSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToPrazdnikVkusaWebSite">
+                  </a> <!-- redirectToPrazdnikVkusaWebSite -->
+                  <span class="method-name">redirectToPrazdnikVkusaWebSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToRestaurantsMap">
+                  </a> <!-- redirectToRestaurantsMap -->
+                  <span class="method-name">redirectToRestaurantsMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToStarBucksWebSite">
+                  </a> <!-- redirectToStarBucksWebSite -->
+                  <span class="method-name">redirectToStarBucksWebSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MainPageFunctionalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeAdvantagesBlock">
+                  </a> <!-- closeAdvantagesBlock -->
+                  <span class="method-name">closeAdvantagesBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeEventsBlock">
+                  </a> <!-- closeEventsBlock -->
+                  <span class="method-name">closeEventsBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeRentBlock">
+                  </a> <!-- closeRentBlock -->
+                  <span class="method-name">closeRentBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeRestaurantsBlock">
+                  </a> <!-- closeRestaurantsBlock -->
+                  <span class="method-name">closeRestaurantsBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToMediaStormLink">
+                  </a> <!-- redirectToMediaStormLink -->
+                  <span class="method-name">redirectToMediaStormLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RentFunctionalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openRentBlock">
+                  </a> <!-- openRentBlock -->
+                  <span class="method-name">openRentBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToAllRoomsLink">
+                  </a> <!-- redirectToAllRoomsLink -->
+                  <span class="method-name">redirectToAllRoomsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToGreatHallLink">
+                  </a> <!-- redirectToGreatHallLink -->
+                  <span class="method-name">redirectToGreatHallLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToParquetHallLink">
+                  </a> <!-- redirectToParquetHallLink -->
+                  <span class="method-name">redirectToParquetHallLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectToWatchAllRoomsLink">
+                  </a> <!-- redirectToWatchAllRoomsLink -->
+                  <span class="method-name">redirectToWatchAllRoomsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AdvantagesFuncTest&quot;/&gt;
+      &lt;class name=&quot;tests.ContactsFunctionalTest&quot;/&gt;
+      &lt;class name=&quot;tests.EventsFunctionalTest&quot;/&gt;
+      &lt;class name=&quot;tests.InfrastructureFunctionalTest&quot;/&gt;
+      &lt;class name=&quot;tests.LeftMenuFunctionalTest&quot;/&gt;
+      &lt;class name=&quot;tests.MainPageFunctionalTest&quot;/&gt;
+      &lt;class name=&quot;tests.RentFunctionalTest&quot;/&gt;
+      &lt;class name=&quot;tests.RestaurantsFunctionalTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(48);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'redirectToAllArendatorsTGILink')
+data.setCell(0, 2, 'tests.InfrastructureFunctionalTest')
+data.setCell(0, 3, 65155);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'redirectToMusicleLink')
+data.setCell(1, 2, 'tests.InfrastructureFunctionalTest')
+data.setCell(1, 3, 24655);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'redirectToShopEliteLink')
+data.setCell(2, 2, 'tests.InfrastructureFunctionalTest')
+data.setCell(2, 3, 23653);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'redirectToBuyVipService')
+data.setCell(3, 2, 'tests.EventsFunctionalTest')
+data.setCell(3, 3, 19560);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'redirectToPrazdnikVkusaWebSite')
+data.setCell(4, 2, 'tests.RestaurantsFunctionalTest')
+data.setCell(4, 3, 9012);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'redirectToRestaurantStarBucksLink')
+data.setCell(5, 2, 'tests.InfrastructureFunctionalTest')
+data.setCell(5, 3, 7320);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'redirectToStarBucksWebSite')
+data.setCell(6, 2, 'tests.RestaurantsFunctionalTest')
+data.setCell(6, 3, 7219);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'redirectToGoogleMaps')
+data.setCell(7, 2, 'tests.ContactsFunctionalTest')
+data.setCell(7, 3, 6408);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'redirectToParquetHallOrder')
+data.setCell(8, 2, 'tests.RentFunctionalTest')
+data.setCell(8, 3, 6104);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'redirectToGreatHallOrder')
+data.setCell(9, 2, 'tests.RentFunctionalTest')
+data.setCell(9, 3, 6028);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'redirectToBankTrustLink')
+data.setCell(10, 2, 'tests.InfrastructureFunctionalTest')
+data.setCell(10, 3, 4063);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'redirectToSportPilatesLink')
+data.setCell(11, 2, 'tests.InfrastructureFunctionalTest')
+data.setCell(11, 3, 3962);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'redirectToServiceDelovarLink')
+data.setCell(12, 2, 'tests.InfrastructureFunctionalTest')
+data.setCell(12, 3, 3551);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'redirectToCoffeTimeWebSite')
+data.setCell(13, 2, 'tests.RestaurantsFunctionalTest')
+data.setCell(13, 3, 2573);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'closeRestaurantsBlock')
+data.setCell(14, 2, 'tests.MainPageFunctionalTest')
+data.setCell(14, 3, 2339);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'closeAdvantagesBlock')
+data.setCell(15, 2, 'tests.MainPageFunctionalTest')
+data.setCell(15, 3, 2218);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'redirectToMdmVideo')
+data.setCell(16, 2, 'tests.AdvantagesFuncTest')
+data.setCell(16, 3, 1858);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'closeRentBlock')
+data.setCell(17, 2, 'tests.MainPageFunctionalTest')
+data.setCell(17, 3, 1845);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'closeEventsBlock')
+data.setCell(18, 2, 'tests.MainPageFunctionalTest')
+data.setCell(18, 3, 1838);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'redirectToMediaStormLink')
+data.setCell(19, 2, 'tests.MainPageFunctionalTest')
+data.setCell(19, 3, 1797);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'redirectToFudaWebSite')
+data.setCell(20, 2, 'tests.RestaurantsFunctionalTest')
+data.setCell(20, 3, 1706);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'redirectToGreatHallLink')
+data.setCell(21, 2, 'tests.RentFunctionalTest')
+data.setCell(21, 3, 1662);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'redirectToAllArendatorsList')
+data.setCell(22, 2, 'tests.RestaurantsFunctionalTest')
+data.setCell(22, 3, 1545);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'redirectToAdvantagesMap')
+data.setCell(23, 2, 'tests.AdvantagesFuncTest')
+data.setCell(23, 3, 1517);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'redirectToRestaurantsMap')
+data.setCell(24, 2, 'tests.RestaurantsFunctionalTest')
+data.setCell(24, 3, 1459);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'redirectToParquetHallLink')
+data.setCell(25, 2, 'tests.RentFunctionalTest')
+data.setCell(25, 3, 1447);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'redirectToEventVIPInfo')
+data.setCell(26, 2, 'tests.EventsFunctionalTest')
+data.setCell(26, 3, 1394);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'redirectToEventInfo')
+data.setCell(27, 2, 'tests.EventsFunctionalTest')
+data.setCell(27, 3, 1384);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'redirectToWatchAllRoomsLink')
+data.setCell(28, 2, 'tests.RentFunctionalTest')
+data.setCell(28, 3, 1221);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'redirectToAllRoomsLink')
+data.setCell(29, 2, 'tests.RentFunctionalTest')
+data.setCell(29, 3, 1161);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'openRestaurantsBlock')
+data.setCell(30, 2, 'tests.RestaurantsFunctionalTest')
+data.setCell(30, 3, 1121);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'redirectToMetroMap')
+data.setCell(31, 2, 'tests.AdvantagesFuncTest')
+data.setCell(31, 3, 995);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'redirectToTtkMap')
+data.setCell(32, 2, 'tests.AdvantagesFuncTest')
+data.setCell(32, 3, 988);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'redirectToParkMap')
+data.setCell(33, 2, 'tests.AdvantagesFuncTest')
+data.setCell(33, 3, 973);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'redirectToParkingMap')
+data.setCell(34, 2, 'tests.AdvantagesFuncTest')
+data.setCell(34, 3, 935);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'redirectToEventsLink')
+data.setCell(35, 2, 'tests.LeftMenuFunctionalTest')
+data.setCell(35, 3, 920);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'redirectToMainPage')
+data.setCell(36, 2, 'tests.LeftMenuFunctionalTest')
+data.setCell(36, 3, 831);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'redirectToConcertHallsRent')
+data.setCell(37, 2, 'tests.LeftMenuFunctionalTest')
+data.setCell(37, 3, 779);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'openEventsBlock')
+data.setCell(38, 2, 'tests.EventsFunctionalTest')
+data.setCell(38, 3, 772);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'redirectToPartnersLink')
+data.setCell(39, 2, 'tests.LeftMenuFunctionalTest')
+data.setCell(39, 3, 727);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'redirectToInfrastructureLink')
+data.setCell(40, 2, 'tests.LeftMenuFunctionalTest')
+data.setCell(40, 3, 643);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'openAdvantagesBlock')
+data.setCell(41, 2, 'tests.AdvantagesFuncTest')
+data.setCell(41, 3, 631);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'redirectToMdmHistory')
+data.setCell(42, 2, 'tests.LeftMenuFunctionalTest')
+data.setCell(42, 3, 625);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'openInfrastructureBlock')
+data.setCell(43, 2, 'tests.InfrastructureFunctionalTest')
+data.setCell(43, 3, 621);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'openRentBlock')
+data.setCell(44, 2, 'tests.RentFunctionalTest')
+data.setCell(44, 3, 550);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'redirectToRoomsRentLink')
+data.setCell(45, 2, 'tests.LeftMenuFunctionalTest')
+data.setCell(45, 3, 437);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'redirectToContactsLink')
+data.setCell(46, 2, 'tests.LeftMenuFunctionalTest')
+data.setCell(46, 3, 436);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'openContactsBlock')
+data.setCell(47, 2, 'tests.ContactsFunctionalTest')
+data.setCell(47, 3, 127);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdvantagesFuncTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">9600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openAdvantagesBlock</span>
+                <span class="method-start">10933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">11564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">12118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToAdvantagesMap</span>
+                <span class="method-start">12157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">13674 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">15719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToMdmVideo</span>
+                <span class="method-start">16351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">18209 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">18798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToMetroMap</span>
+                <span class="method-start">18829 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">19824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">21629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToParkMap</span>
+                <span class="method-start">22230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">23204 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">24964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToParkingMap</span>
+                <span class="method-start">25605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">26540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">28288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToTtkMap</span>
+                <span class="method-start">28907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">29895 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTearDown</span>
+                <span class="method-start">31690 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactsFunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassSetUp</span>
+                <span class="method-start">32863 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">39458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openContactsBlock</span>
+                <span class="method-start">40939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">41066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">41138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToGoogleMaps</span>
+                <span class="method-start">41180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">47588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTearDown</span>
+                <span class="method-start">48240 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.EventsFunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassSetUp</span>
+                <span class="method-start">49011 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">56289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openEventsBlock</span>
+                <span class="method-start">57766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">58538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">59080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToBuyVipService</span>
+                <span class="method-start">59109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">78669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">80898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToEventInfo</span>
+                <span class="method-start">80952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">82337 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">84217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToEventVIPInfo</span>
+                <span class="method-start">84297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">85691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTearDown</span>
+                <span class="method-start">87414 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.InfrastructureFunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassSetUp</span>
+                <span class="method-start">88190 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">95037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openInfrastructureBlock</span>
+                <span class="method-start">96096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">96717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">96725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToAllArendatorsTGILink</span>
+                <span class="method-start">96753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">161909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">162122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToBankTrustLink</span>
+                <span class="method-start">162339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">166403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">166550 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToMusicleLink</span>
+                <span class="method-start">166739 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">191394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">191552 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToRestaurantStarBucksLink</span>
+                <span class="method-start">191724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">199044 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">199175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToServiceDelovarLink</span>
+                <span class="method-start">199369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">202920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">203101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToShopEliteLink</span>
+                <span class="method-start">203372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">227026 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">227389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToSportPilatesLink</span>
+                <span class="method-start">227566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">231528 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTearDown</span>
+                <span class="method-start">231720 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LeftMenuFunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassSetUp</span>
+                <span class="method-start">232603 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">238394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToConcertHallsRent</span>
+                <span class="method-start">239374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">240154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToContactsLink</span>
+                <span class="method-start">240814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">241251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToEventsLink</span>
+                <span class="method-start">241790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">242711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToInfrastructureLink</span>
+                <span class="method-start">243355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">244000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToMainPage</span>
+                <span class="method-start">244631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">245462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToMdmHistory</span>
+                <span class="method-start">246155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">246781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToPartnersLink</span>
+                <span class="method-start">247437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">248164 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToRoomsRentLink</span>
+                <span class="method-start">248832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTearDown</span>
+                <span class="method-start">249269 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MainPageFunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassSetUp</span>
+                <span class="method-start">250007 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">closeAdvantagesBlock</span>
+                <span class="method-start">255924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">258142 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">closeEventsBlock</span>
+                <span class="method-start">258157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">259995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">closeRentBlock</span>
+                <span class="method-start">260014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">261859 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">closeRestaurantsBlock</span>
+                <span class="method-start">261876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">264215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">redirectToMediaStormLink</span>
+                <span class="method-start">264236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">266033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTearDown</span>
+                <span class="method-start">266425 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RentFunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassSetUp</span>
+                <span class="method-start">267161 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">274330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openRentBlock</span>
+                <span class="method-start">275859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">276409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">276416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToAllRoomsLink</span>
+                <span class="method-start">276957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">278118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">278847 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToGreatHallLink</span>
+                <span class="method-start">280125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">281787 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">282505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">redirectToGreatHallOrder</span>
+                <span class="method-start">283781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">289812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">289822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToParquetHallLink</span>
+                <span class="method-start">290375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">291823 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">292559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">redirectToParquetHallOrder</span>
+                <span class="method-start">293943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">300049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">300065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToWatchAllRoomsLink</span>
+                <span class="method-start">300625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">301846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTearDown</span>
+                <span class="method-start">302406 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RestaurantsFunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassSetUp</span>
+                <span class="method-start">303187 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">309157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openRestaurantsBlock</span>
+                <span class="method-start">310666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">311787 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">312841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToAllArendatorsList</span>
+                <span class="method-start">312868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">314413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">316815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToCoffeTimeWebSite</span>
+                <span class="method-start">316914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">319487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">320760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToFudaWebSite</span>
+                <span class="method-start">320785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">322492 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">323696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToPrazdnikVkusaWebSite</span>
+                <span class="method-start">323727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">332739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">334058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToRestaurantsMap</span>
+                <span class="method-start">334128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">335587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareTest</span>
+                <span class="method-start">337942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectToStarBucksWebSite</span>
+                <span class="method-start">338026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getInitialTestSetup</span>
+                <span class="method-start">345245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTearDown</span>
+                <span class="method-start">346578 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

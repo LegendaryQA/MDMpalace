@@ -1,0 +1,10 @@
+tools\PropertiesProvider.class
+tools\ScreenshotMaker.class
+tools\TestNGCustomReportListener$TestResultsSorter.class
+tools\TestNGCustomReportListener$TestSorter.class
+tools\TestNGCustomReportListener.class
+tools\TestNGCustomReportListener$TestMethodSorter.class
+tools\TimeStampFileCreator.class
+tools\BasicTestConditions.class
+pages\StartPage.class
+tools\TestNGCustomReportListener$1.class

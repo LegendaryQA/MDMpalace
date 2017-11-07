@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Functional Test Suite">
+    <listeners>
+        <listener class-name="tools.TestNGCustomReportListener" />
+        <listener class-name="tools.ScreenshotMaker" />
+    </listeners>
+    <test name="All Functional Tests">
+        <classes>
+            <class name="tests.StartPageFunctionalTest" />
+            <class name="tests.LeftMenuFunctionalTest" />
+            <class name="tests.AdvantagesFuncTest" />
+            <class name="tests.RestaurantsFunctionalTest" />
+            <class name="tests.EventsFunctionalTest" />
+            <class name="tests.RentFunctionalTest" />
+            <class name="tests.InfrastructureFunctionalTest" />
+            <class name="tests.ContactsFunctionalTest" />
+            <class name="tests.RoomInfoPageFunctionalTests" />
+            <class name="tests.RoomsRentFunctionalTests" />
+            <class name="tests.GreatHallFunctionalTests" />
+            <class name="tests.ParquetHallFunctionalTests" />
+        </classes>
+    </test>
+</suite>

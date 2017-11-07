@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UI Test Suite">
+    <listeners>
+        <listener class-name="tools.TestNGCustomReportListener" />
+        <listener class-name="tools.ScreenshotMaker" />
+    </listeners>
+    <test name="All UI Tests">
+        <classes>
+            <class name="tests.StartPageUITests" />
+            <class name="tests.AdvantagesUITests" />
+            <class name="tests.RestaurantsUITests" />
+            <class name="tests.EventsUITests" />
+            <class name="tests.RentUITests" />
+            <class name="tests.InfrastructureUITests" />
+            <class name="tests.ContactsUITests" />
+            <class name="tests.RoomInfoPageUITests" />
+            <class name="tests.RoomsRentUITests" />
+            <class name="tests.GreatHallUITests" />
+            <class name="tests.ParquetHallUITests" />
+        </classes>
+    </test>
+</suite>

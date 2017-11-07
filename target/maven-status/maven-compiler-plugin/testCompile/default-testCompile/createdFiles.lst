@@ -1,0 +1,8 @@
+tests\RentFunctionalTest.class
+tests\RestaurantsFunctionalTest.class
+tests\EventsFunctionalTest.class
+tests\MainPageFunctionalTest.class
+tests\ContactsFunctionalTest.class
+tests\LeftMenuFunctionalTest.class
+tests\AdvantagesFuncTest.class
+tests\InfrastructureFunctionalTest.class
